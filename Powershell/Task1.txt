@@ -1,0 +1,6 @@
+New-Item -Path . -Name "Colleges" -ItemType "directory"
+New-Item -Path . -Name "REC.txt" -ItemType "file" -value "REC"
+New-Item -Path . -Name "RIT.txt" -ItemType "file" -value "RIT"
+Move-Item -Path "REC.txt" -Destination "Colleges"
+Move-Item -Path "RIT.txt" -Destination "Colleges"
+ 
